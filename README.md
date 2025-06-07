@@ -19,9 +19,9 @@ This project implements the **Analytic Hierarchy Process (AHP)** using a matrix 
 
 ```plaintext
 .
-├── ahp_analysis.py       # Main script with all processing steps
+├── ahp.ipynb             # Main script with all processing steps
+├── sapevo.ipynb            # SAPEVO method for multicriteria comparison and analysis
 ├── README.md             # Project documentation
-├── requirements.txt      # Required Python libraries (optional)
 ```
 
 ---
@@ -31,20 +31,14 @@ This project implements the **Analytic Hierarchy Process (AHP)** using a matrix 
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/ahp-rating-analysis.git
-cd ahp-rating-analysis
+git clone https://github.com/gabrielbribeiroo/cabotage.git
+cd ahp
 ```
 
-2. **Install dependencies** (optional step):
+2. **Run the analysis**:
 
 ```bash
-pip install -r requirements.txt
-```
-
-3. **Run the analysis**:
-
-```bash
-python ahp_analysis.py
+python ahp.ipynb
 ```
 
 ---
